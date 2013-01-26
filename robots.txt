@@ -1,0 +1,3 @@
+Sitemap: http://www.hyperioninc.com/sitemap.xml
+
+Allow: *

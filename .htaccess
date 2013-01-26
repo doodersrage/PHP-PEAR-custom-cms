@@ -1,0 +1,79 @@
+RewriteEngine on
+
+# prevents directory browsing
+IndexIgnore */*
+
+RewriteCond %{HTTP_HOST} ^hyperioninc\.com [NC]
+RewriteRule (.*) http://www.hyperioninc.com/$1 [R=301,QSA,L]
+
+# redirects index document requests back to root dir
+RewriteCond %{THE_REQUEST} ^GET\ .*/index\.(php|html)\ HTTP
+RewriteRule ^(.*)index\.(php|html)$ /$1 [R=301,L]
+
+ErrorDocument 404 /error_page.php?errorid=404
+ErrorDocument 401 /error_page.php?errorid=401
+ErrorDocument 403 /error_page.php?errorid=403
+
+RewriteRule ^sitemap.html /sitemap.php [L,QSA]
+RewriteRule ^sitemap.xml /xmlsitemap.php [L,QSA]
+
+
+#DYNAMIC URL LIST
+#DYNAMIC URL LIST
+RewriteRule ^hyperion-our-goal/ /index.php?artid=1 [QSA,L,NS]
+RewriteRule ^about-hyperion-inc/ /index.php?artid=2 [QSA,L,NS]
+RewriteRule ^note-from-owners/ /index.php?artid=4 [QSA,L,NS]
+RewriteRule ^turn-to-hyperion/ /index.php?artid=5 [QSA,L,NS]
+RewriteRule ^hyperion-inc-services/ /index.php?artid=6 [QSA,L,NS]
+RewriteRule ^network-engineering/ /index.php?artid=7 [QSA,L,NS]
+RewriteRule ^communications-infrastructure/ /index.php?artid=8 [QSA,L,NS]
+RewriteRule ^software-engineering/ /index.php?artid=9 [QSA,L,NS]
+RewriteRule ^systems-analysis-design/ /index.php?artid=10 [QSA,L,NS]
+RewriteRule ^internet-services/ /index.php?artid=11 [QSA,L,NS]
+RewriteRule ^federal-sales/ /index.php?artid=12 [QSA,L,NS]
+RewriteRule ^blanket-purchase-agreements/ /index.php?artid=13 [QSA,L,NS]
+RewriteRule ^gsa-schedule/ /index.php?artid=14 [QSA,L,NS]
+RewriteRule ^gsa-schedule-it-services/ /index.php?artid=15 [QSA,L,NS]
+RewriteRule ^foundry-networks/ /index.php?artid=16 [QSA,L,NS]
+RewriteRule ^ofs-brightwave-cable/ /index.php?artid=17 [QSA,L,NS]
+RewriteRule ^optical-cable-corporation/ /index.php?artid=18 [QSA,L,NS]
+RewriteRule ^sumitomo-electric-lightwave-corporation/ /index.php?artid=19 [QSA,L,NS]
+RewriteRule ^optimum-fiberoptics-inc/ /index.php?artid=20 [QSA,L,NS]
+RewriteRule ^trusted-systems-inc/ /index.php?artid=21 [QSA,L,NS]
+RewriteRule ^amnis-systems-gsa/ /index.php?artid=22 [QSA,L,NS]
+RewriteRule ^gsa-price-list/ /index.php?artid=23 [QSA,L,NS]
+RewriteRule ^hyperion-clients/ /index.php?artid=24 [QSA,L,NS]
+RewriteRule ^hyperion-inc-locations/ /index.php?artid=25 [QSA,L,NS]
+RewriteRule ^contact-hyperion-inc/ /index.php?artid=26 [QSA,L,NS]
+RewriteRule ^hyperion-solution-puzzle/ /index.php?artid=27 [QSA,L,NS]
+RewriteRule ^hyperion-inc-services-solution/ /index.php?artid=28 [QSA,L,NS]
+#END DYNAMIC URL LIST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

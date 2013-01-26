@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="01connect.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="02fetch.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="03simplequery.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="04numcols.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="05sequences.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="06prepexec.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="08affectedrows.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="09numrows.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="10errormap.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="11transactions.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="13limit.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="14fetchmode_object.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="15quote.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="16tableinfo.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="17query.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="18get.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="19getlistof.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="20locale.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="21freeResult.phpt" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="connect.inc" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="droptable.inc" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="mktable.inc" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="multiconnect.php" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="run.cvs" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="setup.inc.cvs" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+<file name="skipif.inc" server="hyperioninc.com/public_html/" local="128804436000000000" remote="128804436000000000" />
+</dwsync>

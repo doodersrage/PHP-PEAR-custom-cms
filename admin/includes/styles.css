@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body  {
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+background:#CCCCCC;
+height:100%;
+}
+
+.admin_box {
+border:1px solid #333333;
+background:#FFFFFF;
+height:100%;
+}
+
+.left_nav {
+border-right:1px solid #333333;
+background:#D7DAFB;
+padding:5px;
+}
+
+.content_area {
+padding:5px;
+}
+
+.title_column {
+background:#E9E9E9;
+border-bottom:1px solid #000;
+border-right:1px solid #000;
+padding:6px;
+font-weight:700;
+}
+
+.field_column {
+border-bottom:1px solid #000;
+border-right:1px solid #000;
+padding:6px;
+}
+
+.form_table {
+border:1px solid #333333;
+}
+
+.list_table {
+border:1px solid #000;
+}
+
+.list_table th {
+border-bottom:1px solid #000;
+border-right:1px solid #000;
+font-weight:700;
+text-align:center;
+background:#E5E5E5;
+padding:8px;
+}
+
+.list_table td {
+border-bottom:1px solid #000;
+border-right:1px solid #000;
+text-align:center;
+padding:5px;
+}
+
+.admin_menu a{
+display:block;
+padding:5px;
+border:1px solid #999999;
+background:#CCCCCC;
+font-weight:700;
+font-size:16px;
+width:190px;
+text-decoration:none;
+text-align:center;
+color:#000000;
+}
+.menu {
+display:block;
+padding:5px;
+border:1px solid #999999;
+background:#CCCCCC;
+font-weight:700;
+font-size:16px;
+width:190px;
+text-decoration:none;
+text-align:center;
+color:#000000;
+}
+
+.admin_menu a:hover {
+background:#FFFFFF;
+}
+.article_hostory {
+padding:5px;
+background:#F2F2F2;
+}
+
+.settings_nav {
+width:200px;
+padding:5px;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+}
+
+.global_group {
+padding:5px;
+background:#EAEAEA;
+}
+.global_groupover {
+padding:5px;
+background:#F3F3F3;
+cursor: pointer;
+cursor: hand;
+}
+
+.global_settings_group_table th {
+padding:5px;
+background:#CCCCCC;
+border-bottom:1px solid #000;
+}
+.global_settings_group_table td {
+padding:5px;
+border-bottom:1px solid #000;
+}
+
+/* tables */
+table.csv_table {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.csv_table thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.csv_table thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.csv_table tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.csv_table tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.csv_table thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.csv_table thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.csv_table thead tr .headerSortDown, table.csv_table thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+#user_select {
+width:230px;
+}
+.new_account {
+padding:5px;
+}

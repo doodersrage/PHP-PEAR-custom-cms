@@ -1,0 +1,74 @@
+SIN,Model Number ,Description ,GSA Rate
+,,"Model TSH 281 IPS Container Series, Internal Heat Exchanger Cooling ",
+132-8 ,TSH281HEA-2 ,"Safe, 28H x 27W x 39D, 2000 Btu/Hr Cooling, AC Fans, 110V or 230V, 19""W Door ","$10,844.73 "
+132-8 ,TSH281HE-3 ,"Safe, 28H x 27W x 39D, 3000 Btu/Hr Cooling, 19""W Door ","$12,430.54 "
+132-8 ,TSH281WHE-3 ,"Safe, 28H x 32W x 39D, 3000 Btu/Hr Cooling, 19""W Door ","$13,225.45 "
+,,"Model TSH521 IPS Container Series, Internal Heat Exchanger Cooling ",
+132-8 ,TSH521HE-3 ,"Safe, 52H x 27W x 39D, 3000 Btu/Hr Cooling, 19""W Door ","$13,681.85 "
+132-8 ,TSH521HE-4 ,"Safe, 52H x 27W x 39D, 4000 Btu/Hr Cooling, 19""W Door ","$14,382.06 "
+132-8 ,TSH521DHE-4 ,"Safe, 52H x 27W x 45D, 4000 Btu/Hr Cooling, 19""W Door ","$15,334.15 "
+132-8 ,TSH521WHE-4 ,"Safe, 52H x 32W x 39D, 4000 Btu/Hr Cooling, 24""W Door ","$15,176.98 "
+132-8 ,TSH521WDHE-4 ,"Safe, 52H x 32W x 45D, 4000 Btu/Hr Cooling, 24""W Door ","$16,129.07 "
+132-8 ,TSH521WXHE-4 ,"Safe, 52H x 32W x 52D, 4000 Btu/Hr Cooling, 24""W Door ","$17,024.74 "
+132-8 ,TSH521WSHE-4 ,"Safe, 52H x 32W x 56D, 4000 Btu/Hr Cooling, 24""W Door ","$17,696.74 "
+,,"TEMPEST IPS Container Series, Internal Heat Exchanger Cooling ",
+132-8 ,TSH521WXHE-4T ,"Safe, 52H x 32W x 52D, 4000 Btu/Hr Cooling, 24""W Door, 72"" Service Tracks, Roll-out TEMPEST Enclosure, 45H x 23W x 28D, 19"" Rack, 21U Rack Space ","$29,812.93 "
+132-8 ,TSH521WSHE-4T ,"Safe, 52H x 32W x 56D, 4000 Btu/Hr Cooling, 24""W Door, 72"" Service Tracks, Roll-out TEMPEST Enclosure, 45H x 23W x 35D, 19"" Rack, 21U Rack Space ","$31,100.52 "
+,,"Model TSH 281 IPS Container Series, Internal Air Conditioned Cooling ",
+132-8 ,TSH281AC-2 ,"Safe, 28H x 27W x 39D, 2000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$13,276.84 "
+132-8 ,TSH281WAC-2 ,"Safe, 28H x 32W x 39D, 2000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$14,071.75 "
+,,"Model TSH521 IPS Container Series, Internal Air Conditioned Cooling ",
+132-8 ,TSH521AC-4 ,"Safe, 52H x 27W x 39D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$15,623.30 "
+132-8 ,TSH521DAC-4 ,"Safe, 52H x 27W x 45D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$16,575.39 "
+132-8 ,TSH521WAC-4 ,"Safe, 52H x 32W x 39D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$16,418.22 "
+132-8 ,TSH521WDAC-4 ,"Safe, 52H x 32W x 45D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$17,370.31 "
+132-8 ,TSH521WXAC-4 ,"Safe, 52H x 32W x 52D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$18,265.98 "
+132-8 ,TSH521WSAC-4 ,"Safe, 52H x 32W x 56D, 4000 Btu/Hr Cooling, Condensate Pump, 19""W Door, 110V ","$18,937.98 "
+,,"TEMPEST IPS Container Series, Internal Air Conditioned Cooling ",
+132-8 ,TSH521WXAC-4T ,"Safe, 52H x 32W x 52D, 4000 Btu/Hr Cooling, 24""W Door, Condensate Pump, 110V,Roll-out TEMPEST Enclosure, 45H x 23W x 28D, 19"" Rack, 21U Rack Space, 72"" Service Tracks ","$31,610.31 "
+132-8 ,TSH521WSAC-4T ,"Safe, 52H x 32W x 56D, 4000 Btu/Hr Cooling, 24""W Door, Condensate Pump, 110V, Roll-out TEMPEST Enclosure, 45H x 23W x 35D, 19"" Rack, 21U Rack Space  72"" Service Tracks ","$32,889.84 "
+,,Options & Accessories ,
+,,Factory Installed Options ,
+132-8 ,TS2820-FVR ,"Fixed Vertical Rails, 19""/23"" Racks, TSH281 Series, (2) pair, Tapped/Clip Nut, 20""D ",$236.76 
+132-8 ,TS5220-FVR ,"Fixed Vertical Rails, 19""/23"" Racks, TSH521 Series, (2) pair, Tapped/Clip Nut, 20""D ",$298.22 
+132-8 ,TS5226-FVR ,"Fixed Vertical Rails, 19""/23"" Racks, TSH521 Series, (2) pair, Tapped/Clip Nut, 26""D ",$298.22 
+132-8 ,TS2025U-RFA ,"19"" Roll-out Frame Assembly, TSH521HE Series, 50"" Service Tracks, 25U, 20""D ","$1,662.38 "
+132-8 ,TS2019U-RFA ,"19"" Roll-out Frame Assembly, TSH521AC Series, 50"" Service Tracks, 19U, 20""D ","$1,561.63 "
+132-8 ,TS2625U-RFA ,"19"" Roll-out Frame Assy, TSH521W/X/SHE Series, 50"" Service Tracks, 25U, 26""D ","$1,872.94 "
+132-8 ,TS2619U-RFA ,"19"" Roll-out Frame Assy, TSH521W/X/SAC Series, 50"" Service Tracks, 19U, 26""D ","$1,763.13 "
+132-8 ,TS2312U-SFA ,"19"" Slide Frame Assy for 23"" Racks, 29"" Travel, (2) pair Clip Nut Rails, 12U, 20""D ","$1,445.76 "
+132-8 ,TS2309U-SFA ,"19"" Slide Frame Assy for 23"" Racks, 29"" Travel, (2) pair Clip Nut Rails, 9U, 20""D ","$1,410.50 "
+132-8 ,TS128-JB ,"Cable Junction Box, 12 x 12 x 8, Padlock Hasp Door ",$542.04 
+132-8 ,TS128-JBP2 ,"Cable Junction Box with Internal Quad Power Outlet Box, (2) 20A Circuits ",$830.18 
+132-8 ,TS128-JBP4 ,"Cable Junction Box with (2) Internal Quad Power Outlet Boxes, (2) 20A Circuits each ",$981.31 
+,,Accessories ,
+132-8 ,TS1922-SLSF ,"Slide Shelf for 19"" Rack, 110 lb Load Capacity, 1U, 22""D ",$181.35 
+132-8 ,TS1926-SLSF ,"Slide Shelf for 19"" Rack, 110 lb Load Capacity, 1U, 26""D ",$231.73 
+132-8 ,TS2322-SLSF ,"Slide Shelf for 23"" Rack, 110 lb Load Capacity, 1U, 22""D ",$229.71 
+132-8 ,TS1922-FSF ,"Fixed Shelf for 19"" Rack, 200 lb Load Capacity, 1U, 22""D ",$166.24 
+132-8 ,TS1926-FSF ,"Fixed Shelf for 19"" Rack, 150 lb Load Capacity, 1U, 26""D ",$231.73 
+132-8 ,TS2322-FSF ,"Fixed Shelf for 23"" Rack, 200 lb Load Capacity, 1U, 22""D ",$186.39 
+132-8 ,TS1920-SMSF ,"Side Mounted Fixed Shelf for 19"" Rack, 100 lb Load Capacity, 0U, 20""D ",$75.56 
+132-8 ,TS1926-SMSF ,"Side Mounted Fixed Shelf for 19"" Rack, 100 lb Load Capacity, 0U, 26""D ",$125.94 
+132-8 ,TS1922-DTSF ,"Dual Tower Slide Shelf for 19"" Rack, 110 lb Load Capacity, 2U, 22""D ",$352.63 
+132-8 ,TS1926-DTSF ,"Dual Tower Slide Shelf for 19"" Rack, 110 lb Load Capacity, 2U, 26""D ",$377.81 
+132-8 ,TS2324-DTSF ,"Dual Tower Slide Shelf for 23"" Rack, 200 lb Load Capacity, 26"" Travel, 2U, 24""D ",$549.09 
+132-8 ,TS1910-PKSF ,"Pivoting Keyboard Slide Shelf for 19"" Rack, Mouse Tray, 2U ",$251.88 
+132-8 ,TS19143U-DR ,"Slide Drawer for 19"" Rack, Top with Padlock Hasp, 3U, 14""D ",$257.92 
+132-8 ,TS2P-KVM ,"Keyboard, Video, Mouse Switch, 2 Port, No keyboard Control ",$664.95 
+132-8 ,TS1939-CSTR ,"Caster Base for 27""W x 39""D Safes, 4"" Dia. Locking Wheels ",$463.45 
+132-8 ,TS2439-CSTR ,"Caster Base for 32""W x 39""D Safes, 4"" Dia. Locking Wheels ",$493.68 
+132-8 ,TS2445-CSTR ,"Caster Base for 32""W x 45""D Safes, 4"" Dia. Locking Wheels ",$528.94 
+132-8 ,TS4X4-SP ,"Spreader Plate, 48""W x 48""D, 1/4""Thick Painted Steel, 326 lbs ",$654.88 
+132-8 ,TS4X5-SP ,"Spreader Plate, 48""W x 60""D, 1/4""Thick Painted Steel, 408 lbs ",$881.56 
+,,TEMPEST Options ,
+132-8 ,TS6-FBWG ,"Fiber Barrel Waveguide, 6 Barrels ",$271.02 
+132-8 ,TS12-FBWG ,"Fiber Barrel Waveguide, 12 Barrels ",$771.75 
+132-8 ,TSL451-TE ,"Standalone TEMPEST Enclosure, 45H x 23W x 28D, 19"" Rack, 21U, Fan Cooled ","$9,515.84 "
+132-8 ,TSL451D-TE ,"Standalone TEMPEST Enclosure, 45H x 23W x 35D, 19"" Rack, 21U, Fan Cooled ","$10,376.24 "
+,,Air Conditioning Options ,
+132-8 ,TSAC230V-P ,"230V, 50 Hz Power Option for all Air Conditioned IPS Containers ",$89.67 
+132-8 ,TSAC-ICENET ,"Communications Link for PC Management of Control Panel, RS232/482 Converter ",$307.29 
+132-8 ,TSAC-RC ,"Remote Control Module, 12 ft. Cable ",$155.16 
+132-8 ,TSAC110V-CEV ,"Standalone Condensate Evaporator, 110V ",$929.92 
+132-8 ,TSAC230V-CEV ,"Standalone Condensate Evaporator, 230V ",$972.24 

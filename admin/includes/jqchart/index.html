@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>jQuery Chart Plugin Demo version 0.1</title>
+<script type="text/javascript" src="includes/jquery.js"></script>
+<script type="text/javascript" src="includes/json.js"></script>
+<script type="text/javascript" src="includes/chartplugin.js"></script>
+<script type="text/javascript" src="includes/excanvas.js"></script>
+<script type="text/javascript" src="includes/wz_jsgraphics.js"></script>
+<script type="text/javascript" src="includes/chart.js"></script>
+<script type="text/javascript" src="includes/canvaschartpainter.js"></script>
+<script type="text/javascript" src="includes/jgchartpainter.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" href="includes/canvaschart.css" />
+<link rel="stylesheet" href="star-light/star-light.css" type="text/css"/>
+<script type="text/javascript">
+function getTableCol(col) {
+	 var coldata=[];
+	 $("input[@name="+col+"]").each(function() {coldata.push($(this).val());});
+	 return coldata;
+}
+function setTableCol(col,data) {
+	$("input[@name="+col+"]").each(function() {$(this).val(data.shift());});
+}
+function addColorOptions() {
+	var options='';
+	var colors=['#cc0000','#00cc00','#0000cc'];
+	var gradient=['8','A','C','E','F'];
+	$('.colorpick').each(function() {
+							 var n=$(this).attr('name');
+							 n=parseInt(n.charAt(1));
+							 if (isNaN(n)) {n=0;}
+							 var opt=new Option('#000000','#000000');opt.style.backgroundColor='#000000';
+							 this.options[this.options.length]=opt;
+							 for(var j=0;j<colors.length;j++) {
+								 for(var i=0;i<gradient.length;i++) {
+									 var c=colors[(j+n)%3];
+									 c=c.replace(/c/g,gradient[i]);
+									 var opt=new Option(c,c);
+									 opt.style.backgroundColor=c;
+									 if ($(this).attr('default')==c) {
+									     opt.selected=true;
+										 this.style.backgroundColor=opt.style.backgroundColor;
+									 }
+									 this.options[this.options.length]=opt;
+								 }
+							 }
+							 var opt=new Option('#FFFFFF','#FFFFFF');opt.style.backgroundColor='#FFFFFF';
+							 this.options[this.options.length]=opt;
+							 $(this).change(function() {
+												this.style.backgroundColor=this.options[this.selectedIndex].style.backgroundColor;
+											});
+						 });
+}
+function drawChart() {
+	var names={
+		none:'',
+		c1:$('input[@name=c1name]').val(),
+		c2:$('input[@name=c2name]').val(),
+		c3:$('input[@name=c3name]').val()
+	};
+	var chartInit={
+		        painterType:$('select[@name=paintertype]').val(),
+				backgroundColor:$('select[@name=backgroundcolor]').val(),
+				textColor:$('select[@name=textcolor]').val(),
+				axesColor:$('select[@name=textcolor]').val(),
+				yMin:$('input[@name=yMin]').val(),
+				yMax:$('input[@name=yMax]').val(),
+				xGrid:$('input[@name=xGrid]').val(),
+                yGrid:$('input[@name=yGrid]').val(),
+                xLabels:getTableCol('x'),
+                showLegend:($('input[@name=showLegend][@checked]').val()>0)};
+	var chart1={
+				label:names['c1'],
+				type:$('select[@name=c1type]').val(),
+				color:$('select[@name=c1color]').val(),
+				values:getTableCol('c1')};
+	var chart2={
+				label:names['c2'],
+				type:$('select[@name=c2type]').val(),
+				color:$('select[@name=c2color]').val(),
+				values:getTableCol('c2'),
+				stackedOn:names[$('select[@name=c2stack]').val()]};
+	var chart3={
+				label:names['c3'],
+				type:$('select[@name=c3type]').val(),
+				color:$('select[@name=c3color]').val(),
+				values:getTableCol('c3'),
+				stackedOn:names[$('select[@name=c3stack]').val()]};
+	$('#mychart')
+	    .chartInit(chartInit)
+	    .chartAdd(chart1)
+	    .chartAdd(chart2)
+	    .chartAdd(chart3)
+	    .chartClear()
+	    .chartDraw();
+	$('#chartjs').html("$('#mychart')<br>.chartInit("+JSON.stringify(chartInit)+")<br>.chartAdd("+JSON.stringify(chart1)+")<br>.chartAdd("+JSON.stringify(chart2)+")<br>.chartAdd("+JSON.stringify(chart3)+")<br>.chartClear()<br>.chartDraw();");
+
+}
+$(document).ready(function() {
+    $('input[@type=text],select').addClass('field');				  
+    addColorOptions();
+	setTableCol('x',['Mon','Tue','Wed','Thur','Fri','Sat','Sun']);
+	setTableCol('c1',[100,124,222,44,123,23,99]);
+	setTableCol('c2',[132,24,122,94,23,43,19]);
+	setTableCol('c3',[232,54,22,104,223,143,119]);
+	$('#drawbutton').click(drawChart);
+	drawChart();
+});
+</script>
+</head>
+
+<body>
+<h1>Demo of jQuery Chart Plugin version 0.1</h1>
+<table>
+<tr><td rowspan="2">
+<div id="chartdata">
+<h3>Chart Data</h3>
+<table id="datatable">
+  <thead>
+	<tr>
+	  <td align="right">Area:</td>
+		  <td>Painter<br><select name="paintertype"><option value="jsgraphics">JS Graphics</option><option value="canvas">Canvas</option></select></td>
+	  <td>Background:<br><select class="colorpick" name="backgroundcolor"><option value="">default</option></select></td>
+	  <td>Text:<br><select class="colorpick" name="textcolor"><option value="">default</option></select></td>
+	<tr>
+	  <td align="right">Y Range:</td>
+	  <td>Min<br><input type="text" name="yMin" value="0"></td>
+	  <td>Max<br><input type="text" name="yMax" value="300"></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td align="right">Grid Lines:</td>
+	  <td>X grid<br><input type="text" name="xGrid" value="0"></td>
+	  <td>Y grid<br><input type="text" name="yGrid" value="10"></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td align="right">Show Legend:</td>
+	  <td colspan="3"><input type="checkbox" name="showLegend" value="1"></td>
+	</tr>
+	<tr>
+	  <th></th>
+	  <th>Series 1</td>
+	  <th>Series 2</td>
+	  <th>Series 3</td>
+	</tr>
+	<tr>
+	  <td align="right">Label:</td>
+	  <td><input type="text" name="c1name" size="10" value="Leads"></td>
+	  <td><input type="text" name="c2name" size="10" value="Quotations"></td>
+	  <td><input type="text" name="c3name" size="10" value="Orders"></td>
+	</tr>
+	<tr>
+	  <td align="right">Type:</td>
+	  <td><select name="c1type">
+	  <option value="Bar">Bar</option>
+	  <option value="Area">Area</option>
+	  <option value="Line">Line</option>
+	  </select>
+	  </td>
+	  <td><select name="c2type">
+	  <option value="Bar">Bar</option>
+	  <option value="Area">Area</option>
+	  <option value="Line">Line</option>
+	  </select>
+	  </td>
+	  <td><select name="c3type">
+	  <option value="Bar">Bar</option>
+	  <option value="Area">Area</option>
+	  <option value="Line">Line</option>
+	  </select>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="right">Color:</td>
+	  <td><select class="colorpick" name="c1color" default="#008800"></select>
+	  </td>
+	  <td><select class="colorpick" name="c2color" default="#000088"></select>
+	  </td>
+	  <td><select class="colorpick" name="c3color" default="#880000"></select>
+	  </td>
+	</tr>
+	</thead>
+	<tr>
+	  <td align="right">Stack On:</th>
+	  <td>-</td>
+	  <td><select name="c2stack">
+	  <option value="none">None</option>
+	  <option value="c1">Series 1</option>
+	  </select> 
+	  </td>	  
+	  <td><select name="c3stack">
+		  <option value="none">None</option>
+		  <option value="c1">Series 1</option>
+		  <option value="c2">Series 2</option>
+		  </select> 
+		  </td>
+	</tr>
+	<tr>
+	<td>xLabels</td>
+	<td>Values 1</td>
+	<td>Values 2</td>
+	<td>Values 3</td>
+	</tr>
+	<tbody>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	  <td><input type="text" name="x" size="5"></td>
+	  <td><input type="text" name="c1" size="5"></td>
+	  <td><input type="text" name="c2" size="5"></td>
+	  <td><input type="text" name="c3" size="5"></td>
+	</tr>
+	<tr>
+	<td colspan="4" align="center"><input type="button" value="Draw Chart" id="drawbutton"></td>
+	</tr>
+	</tbody>
+</table>
+</td><td>
+</div>
+<div id="chartcode">
+<h3>Chart Code</h3>
+<pre id="chartjs">
+</pre>
+</div>
+</td></tr>
+<tr><td>
+<div id="chartarea">
+<h3>Chart Canvas</h3>
+<div id="mychart" class="chart" style="width: 600px; height: 300px;"></div>
+</div>
+</td></tr>
+</table>
+<hr>
+<h3>Credits</h3>
+<ul>
+ <li>Base Platform: <a href="http://www.jquery.com">jQuery</a></li>
+ <li>Original Chart code by: <a href="http://webfx.eae.net/dhtml/chart/chart.html">Emil A Eklund</a></li>
+ <li>Almost completely re-written by:<a href="http://www.reach1to1.com">Ashutosh Bijoor</a></li>
+ <li>Built for:<a href="http://www.on2.biz">On2Biz - web based business process management service</a> in the making</li>
+</ul> 
+<h3>Versions</h3>
+<dl>
+ <dt>0.21 - 13 Mar 2007</dt><dd>
+	 <ul>
+	 <li>Corrected bug where stacked chart offset was not calculated properly (<a href="http://www.nabble.com/Re%3A-New-Plugin%3A-jqChart---Charts-plugin-for-jQuery-p9435391.html">reported by Tiago Dionizio</a>)</li>
+	 <li>Download:<a href="jqchart0.21.tar.gz">jqchart0.21.tar.gz</a><br>
+	 </ul>
+   </dd>
+ <dt>0.2 - 12 Mar 2007</dt><dd>
+	 <ul>
+	  <li>Corrected a few IE-specific bugs. Now should work with IE.
+	  <li>Added a painter selection. The painter type determines whether the browser canvas tag is used or to use the <a href="http://www.walterzorn.com/jsgraphics/jsgraphics_e.htm">Javascript graphics library</a> by Walter Zorn
+	 <li>Customizable colors for background and grid</li>
+	 <li>Customizable line width for Line Chart</li>
+	 <li>Corrected bug where stacked chart offset was not calculated properly (<a href="http://www.nabble.com/Re%3A-New-Plugin%3A-jqChart---Charts-plugin-for-jQuery-p9435391.html">reported by Tiago Dionizio</a>)</li>
+	 <li>Download:<a href="jqchart0.2.tar.gz">jqchart0.2.tar.gz</a><br>
+	 </ul>
+</dd>
+ <dt>0.1 - 10 Mar 2007</dt><dd>
+ <ul>
+ <li>Complete re-haul of original Chart code</li>
+ <li>Download:<a href="jqchart0.1.tar.gz">jqchart0.1.tar.gz</a></li>
+ </ul>
+</dd>
+</dl> 
+<h3>To Do</h3>
+<ul>
+	 <li>Automatic recognition of painter type</li>
+</ul>
+</body> </html>

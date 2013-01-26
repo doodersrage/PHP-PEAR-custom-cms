@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-size:26px;
+}
+h3 {
+	font-size:20px;
+	color:navy;
+}
+/* main content boxes */
+
+div.container {
+	margin:0 auto;
+	text-align:left;
+	width:800px;
+	margin-top:10px;
+	height:100%;
+}
+div.header {
+	position:absolute;
+	top:10px;
+	width:800px;
+	background:url(../images/header_bg.gif);
+	height:110px;
+	list-style:none;
+	margin-left:1px;
+}
+td.top_nav{
+padding:0px;
+margin:0px;
+vertical-align:top;
+}
+td.top_nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+td.top_nav ul li{
+display:inline;
+}
+div.content {
+	position:relative;
+	width:800px;
+	padding-top:136px;
+	border-left:1px #663300 solid;
+	border-right:1px #663300 solid;
+	background:#FDF5D9;
+	padding-bottom:60px;
+	min-height:400px;
+}
+div.footer {
+	position:relative;
+	bottom:0;
+	width:800px;
+	padding-top:5px;
+	border-left:1px #663300 solid;
+	border-right:1px #663300 solid;
+	border-bottom:1px #663300 solid;
+	background:#F7F7F7;
+	border-top:#663300 1px solid;
+}
+div.cur_loc {
+	position:absolute;
+	top:120px;
+	width:796px;
+	height:17px;
+	line-height:17px;
+	padding:3px;
+	z-index:999;
+	background:url(../images/bc_bg.gif) repeat-x;
+	color:#FF0000;
+	font-weight:700
+}
+.cur_loc a {
+	text-decoration:none;
+	color:#000066;
+}
+/* in page elements */
+
+a {
+	color:#000099;
+}
+a:hover {
+	color:#0033FF;
+}
+.footer_text {
+	padding:5px;
+	text-align:right;
+}
+.footer_copywrite {
+	padding:5px;
+	font-size:10px;
+}
+.logo_area {
+	padding:10px;
+}
+.right_header_border {
+	background:url(../images/header_right_border.gif) right top no-repeat;
+	width:20px;
+	height:110px;
+}
+.left_header_border {
+	background:url(../images/header_left_border.gif) left top no-repeat;
+	width:20px;
+	height:110px;
+}
+.header_title_logo {
+	background:url(../images/header_banner.gif) left top no-repeat;
+	height:60px;
+}
+.content_table {
+	height:100%;
+}
+a.button {
+	background:url(../images/button_full.gif) no-repeat;
+	height:37px;
+	display:block;
+	width:80px;
+	float:right;
+	margin-right:5px;
+	text-align:center;
+	line-height:37px;
+	text-decoration:none;
+	color:#000000;
+}
+a.button_active {
+	background:url(../images/button_full.gif) no-repeat 0 -74px;
+	height:37px;
+	display:block;
+	width:80px;
+	float:right;
+	margin-right:5px;
+	text-align:center;
+	line-height:37px;
+	text-decoration:none;
+	margin-bottom:8px;
+}
+a.button_active:hover {
+	background:url(../images/button_full.gif) no-repeat 0 -37px;
+}
+a.button:hover {
+	background:url(../images/button_full.gif) no-repeat 0 -37px;
+}
+.gov_lb {
+	border:0px;
+	color:#999999;
+	margin:0;
+	margin:3px;
+	height:2px;
+}

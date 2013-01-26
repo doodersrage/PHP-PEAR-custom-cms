@@ -1,0 +1,124 @@
+132-8 ,TC01TGX ,1,Indoor / General Purpose ,UL/CUL OFN Rated Tube ,S ,"3,000","1,000",ft. ,$0.47 
+132-8 ,TC02TGX ,2,Indoor / General Purpose ,UL/CUL OFN Rated Tube - Speed Wrapped ,N ,"10,000","1,000",ft. ,$1.08 
+132-8 ,TC07TGX ,7,Indoor / General Purpose ,UL/CUL OFN Rated Tube - Speed Wrapped ,N ,"10,000","1,000",ft. ,$2.38 
+132-8 ,TC19TGX ,19,Indoor / General Purpose ,UL/CUL OFN Rated Tube - Speed Wrapped ,N ,"10,000","1,000",ft. ,$6.11 
+132-8 ,TC02TRX ,2,Indoor / Riser ,UL/CUL OFNR Rated Tube Cable ,S ,"5,000","1,000",ft. ,$1.81 
+132-8 ,TC03TRX ,3,Indoor / Riser ,UL/CUL OFNR Rated Tube Cable ,S ,"2,000","1,000",ft. ,$2.21 
+132-8 ,TC07TRX ,7,Indoor / Riser ,UL/CUL OFNR Rated Tube Cable ,S ,"5,000","1,000",ft. ,$2.79 
+132-8 ,TC19TRX ,19,Indoor / Riser ,UL/CUL OFNR Rated Tube Cable ,S ,"10,000","1,000",ft. ,$6.62 
+132-8 ,TC01TPX ,1,Indoor / Plenum ,UL/CUL OFNP Rated Tube ,S ,"20,000","1,000",ft. ,$0.85 
+132-8 ,TC02TPX ,2,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Speed Wrapped ,S ,"3,000","1,000",ft. ,$2.05 
+132-8 ,TC03TPX ,3,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Speed Wrapped ,S ,"2,000","1,000",ft. ,$2.75 
+132-8 ,TC07TPX ,7,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Speed Wrapped ,S ,"3,000","1,000",ft. ,$6.43 
+132-8 ,TC19TPX ,19,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Speed Wrapped ,S ,"3,000","1,000",ft. ,$24.41 
+132-8 ,TC03TPA ,3,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Interlocked Armor ,N ,"5,000",500,ft. ,$8.41 
+132-8 ,TC07TPA ,7,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Interlocked Armor ,N ,"5,000",500,ft. ,$13.32 
+132-8 ,TC19TPA ,19,Indoor / Plenum ,UL/CUL OFNP Rated Tube Cable - Interlocked Armor ,N ,"5,000",500,ft. ,$32.45 
+132-8 ,TC01TBX ,1,Non-Rated ,Black Tube - Non-flame Retardant ,S ,"6,600","3,300",ft. ,$0.41 
+132-8 ,TC01TXX ,1,Non-Rated ,Translucent Tube - Non-flame Retardant ,N ,"5,000",500,ft. ,$0.41 
+132-8 ,TC02TOX ,2,Outdoor / Duct ,"Water-Blocked, Dielectric Tube Cable ",S ,"10,000","1,000",ft. ,$1.35 
+132-8 ,TC04TOD ,4,Outdoor / Duct ,"Water-Blocked, Dielectric Tube Cable with CSM ",S ,"5,000","1,000",ft. ,$1.77 
+132-8 ,TC07TOX ,7,Outdoor / Duct ,"Water-Blocked, Dielectric Tube Cable ",S ,"10,000","1,000",ft. ,$2.47 
+132-8 ,TC19TOX ,19,Outdoor / Duct ,"Water-Blocked, Dielectric Tube Cable ",S ,"5,000","1,000",ft. ,$5.14 
+132-8 ,TC07AOX ,7,Outdoor / Direct Buried ,"TC07TOX Cable w/Jacketed, Corrugated Steel Armor ",N ,"6,000","1,000",ft. ,$6.06 
+132-8 ,TC07TAX ,7,Outdoor / Ruggedized ,"TC07TOX Cable w/Jacketed, Interlocked Steel Armor ",N ,CALL ,"1,000",ft. ,$7.02 
+132-8 ,TC19TAX ,19,Outdoor / Ruggedized ,"TC19TOX Cable w/Jacketed, Interlocked Steel Armor ",N ,CALL ,"1,000",ft. ,$9.80 
+132-8 ,TC07TLW ,7,Outdoor / Duct ,"LAP Jacketed, Water-Blocked Tube Cable ",S ,"3,000","1,000",ft. ,$3.07 
+132-8 ,TC19TLW ,19,Outdoor / Duct ,"LAP Jacketed, Water-Blocked Tube Cable ",S ,"5,000","1,000",ft. ,$6.43 
+132-8 ,TC07LWS ,7,Outdoor / Direct Buried ,"TC07TLW Cable w/Jacketed, Corrugated Steel Armor ",N ,"7,500","1,000",ft. ,$6.32 
+132-8 ,TC07TLA ,7,Outdoor / Ruggedized ,"TC07TLW Cable w/Jacketed, Interlocked Steel Armor ",N ,"1,500","1,000",ft. ,$7.27 
+132-8 ,TC19TLA ,19,Outdoor / Ruggedized ,"TC19TLW Cable w/Jacketed, Interlocked Steel Armor ",N ,"7,000","1,000",ft. ,$10.22 
+132-8 ,TC02MSO ,2,Outdoor / Aerial ,"Water-Blocked, Dielectric Tube Cable ",N ,"10,000","1,000",ft. ,$1.79 
+132-8 ,TC04MSO ,4,Outdoor / Aerial ,"Water-Blocked, Dielectric Tube Cable with CSM ",N ,"10,000","1,000",ft. ,$2.35 
+132-8 ,TC07MSO ,7,Outdoor / Aerial ,"Water-Blocked, Dielectric Tube Cable ",N ,"10,000","1,000",ft. ,$2.99 
+132-8 ,TC19MSO ,19,Outdoor / Aerial ,"Water-Blocked, Dielectric Tube Cable ",N ,"10,000","1,000",ft. ,$5.75 
+132-8 ,TC01NA3 ,1,"Shipboard, Nuclear ","LSZH IEEE383, Water-Blocked Tube Cable ",N ,"3,000","1,000",ft. ,$1.28 
+132-8 ,TC07NA3 ,7,"Shipboard, Nuclear ","LSZH IEEE383, Water-Blocked Tube Cable ",N ,"10,000","1,000",ft. ,$7.04 
+132-8 ,TC19NA3 ,19,"Shipboard, Nuclear ","LSZH IEEE383, Water-Blocked Tube Cable ",N ,"5,000","1,000",ft. ,$16.91 
+132-8 ,TC13TIX ,13,Outdoor / Direct Buried ,"13 tubes around a 1.45"" Conduit, Heavy Jacket ",N ,"1,000","1,000",ft. ,$17.66 
+132-8 ,FR02M6 ,62.5/125 ,,Multimode 2-fiber (Ribbon) ,S ,,"7,000 or 14,000 ",ft. ,$0.44 
+132-8 ,FB04M6 ,62.5/125 ,,Multimode 4-fiber ,N ,,"7,000 or 14,000 ",ft. ,$0.95 
+132-8 ,FB06M6 ,62.5/125 ,,Multimode 6-fiber ,S ,,"7,000 or 14,000 ",ft. ,$1.49 
+132-8 ,FB12M6 ,62.5/125 ,,Multimode 12-fiber ,S ,,"3,500 or 7,000 ",ft. ,$3.17 
+132-8 ,FB18M6 ,62.5/125 ,,Multimode 18-fiber ,S ,,"3,500 or 7,000 ",ft. ,$4.74 
+132-8 ,FB04R6 ,62.5/125 ,,Multimode RADHARD 4-fiber ,N ,,"7,000 or 14,000 ",ft. ,$1.66 
+132-8 ,FB06R6 ,62.5/125 ,,Multimode RADHARD 6-fiber ,N ,,"7,000 or 14,000 ",ft. ,$2.78 
+132-8 ,FB12R6 ,62.5/125 ,,Multimode RADHARD 12-fiber ,N ,,"3,500 or 7,000 ",ft. ,$4.64 
+132-8 ,FB18R6 ,62.5/125 ,,Multimode RADHARD 18-fiber ,N ,,"3,500 or 7,000 ",ft. ,$6.63 
+132-8 ,FR02SX ,SM ,,Singlemode 2-fiber (Ribbon) ,N ,,"7,000 or 14,000 ",ft. ,$0.33 
+132-8 ,FB04SX ,SM ,,Singlemode 4-fiber ,N ,,"7,000 or 14,000 ",ft. ,$0.55 
+132-8 ,FB06SX ,SM ,,Singlemode 6-fiber ,S ,,"7,000 or 14,000 ",ft. ,$0.74 
+132-8 ,FB12SX ,SM ,,Singlemode 12-fiber ,S ,,"3,500 or 7,000 ",ft. ,$1.10 
+132-8 ,FB18SX ,SM ,,Singlemode 18-fiber ,S ,,"3,500 or 7,000 ",ft. ,$1.87 
+132-8 ,FR02SR ,SM ,,Singlemode RH 2-fiber (Ribbon) ,N ,,"7,000 or 14,000 ",ft. ,$0.37 
+132-8 ,FB04SR ,SM ,,Singlemode RADHARD 4-fiber ,N ,,"7,000 or 14,000 ",ft. ,$0.63 
+132-8 ,FB06SR ,SM ,,Singlemode RADHARD 6-fiber ,N ,,"7,000 or 14,000 ",ft. ,$0.82 
+132-8 ,FB12SR ,SM ,,Singlemode RADHARD 12-fiber ,N ,,"3,500 or 7,000 ",ft. ,$1.21 
+132-8 ,FB18SR ,SM ,,Singlemode RADHARD 18-fiber ,N ,,"3,500 or 7,000 ",ft. ,$2.06 
+132-8 ,FB06M5 ,50/125 ,,Multimode 6-fiber ,N ,,"7,000 or 14,000 ",ft. ,$1.51 
+132-8 ,FB12M5 ,50/125 ,,Multimode 12-fiber ,N ,,"3,500 or 7,000 ",ft. ,$2.69 
+132-8 ,FB18M5 ,50/125 ,,Multimode 18-fiber ,N ,,"3,500 or 7,000 ",ft. ,$3.61 
+132-8 ,BEFFD1 ,,,Fiber Feed Detector ,N ,,1,ea. ,"$1,453.79 "
+132-8 ,BEREG01 ,,,"Dual Stage Nitrogen Tank Regulator, 0-200 psi ",S ,,10,ea. ,$287.98 
+132-8 ,BE200S2 ,,,Payoff Stand ,N ,,1,ea. ,$252.39 
+132-8 ,BE02DW ,,,"Blowing Head Drive Wheels (2-, 4- or 6-Fiber Bundle) ",S ,,200,pr. ,$38.30 
+132-8 ,BE02SL ,,,"Blowing Head Seal (2-, 4- or 6-Fiber Bundle) ",S ,,200,ea. ,$22.37 
+132-8 ,BE03DW ,,,Blowing Head Drive Wheels (12- or 18-Fiber Bundle) ,S ,,200,pr. ,$39.37 
+132-8 ,BE03SL ,,,Blowing Head Seal (12- or 18-Fiber Bundle) ,S ,,200,ea. ,$22.37 
+132-8 ,BE2MFT ,,,"Blowing Tip (2-, 4-, or 6-Fiber Bundle) ",S ,,100,ea. ,$11.57 
+132-8 ,BE3MFT ,,,Blowing Tip (12- or 18-Fiber Bundle) ,S ,,100,ea. ,$11.56 
+132-8 ,DE06MDU ,,,"Tube Distribution Unit, Modular, Indoor (16 x 16 x 4 in.) ",S ,,100,ea. ,$117.37 
+132-8 ,DE12IDU ,,,"Tube Distribution Unit, Hoffman Nema 12 (24 x 20 x 7 in.) ",S ,,4,ea. ,$214.49 
+132-8 ,DE24IDU ,,,"Tube Distribution Unit, Hoffman Nema 12 (36 x 30 x 9 in.) ",S ,,3,ea. ,$354.87 
+132-8 ,DEDTTP ,,,Rack-Mount Cable Securing Kit (TC07 Tube Cables) ,S ,,25,ea. ,$123.09 
+132-8 ,DEDTTP2 ,,,Rack-Mount Cable Securing Kit (TC19 Tube Cables) ,S ,,25,ea. ,$160.50 
+132-8 ,DETC008 ,,,"8-tube Organizer for 8 mm Tubes, available only in pks of 10 ",S ,,100,ea. ,$1.31 
+132-8 ,DETCTB ,,,Mounting L-Bracket for DETC008 ,N ,,10,ea. ,$11.04 
+132-8 ,BEPT001 ,,,"Tube Testing Kit, for Pressure & Obstruction Tests ",S ,,20,ea. ,$60.39 
+132-8 ,BEBB01 ,,,5 mm Chrome Ball Bearings (for Obstruction Testing) ,S ,,20,10/pk ,$2.82 
+132-8 ,BETC001 ,,,Tube Cutter ,S ,,50,ea. ,$9.73 
+132-8 ,BETC00B ,,,Replacement Blade for Tube Cutter ,S ,,50,ea. ,$4.75 
+132-8 ,BETL01 ,,,Tube Cable Cutter ,S ,,5,ea. ,$134.97 
+132-8 ,BETL02 ,,,Replacement Blade for Tube Cable Cutter ,S ,,5,ea. ,$33.88 
+132-8 ,DE00SPL ,,,Tube Cable Splice Kit ( for 2- or 4-Tube Cables) ,S ,,10,ea. ,$23.74 
+132-8 ,DE01SPL ,,,Tube Cable Splice Kit ( for 7-Tube Cables) ,S ,,48,ea. ,$52.14 
+132-8 ,DE02SPL ,,,Tube Cable Splice Kit ( for 19-Tube Cables) ,S ,,48,ea. ,$92.05 
+132-8 ,DE08MC2 ,,,"Straight Tube Coupling (8mm), available only in packs of 10 ",S ,,2400,ea. ,$2.06 
+132-8 ,DE06MP ,,,"Tube Plug (6mm), available only in packs of 10 ",S ,,2400,ea. ,$0.69 
+132-8 ,DE08MA ,,,"Tube End Cap (8mm), available only in packs of 10 ",S ,,100,ea. ,$1.70 
+132-8 ,DE08MB ,,,"Bulkhead Tube Coupling (8mm), available only in packs of 10 ",S ,,50,ea. ,$5.07 
+132-8 ,DE08HP ,,,Hole Punch for mounting DE08MB ,N ,,1,ea. ,$35.55 
+132-8 ,DE08MT ,,,Tee Coupling (8mm) ,S ,,50,ea. ,$4.22 
+132-8 ,FT24WFM ,,,Wall-Mount Fiber Termination Unit (24 fiber capacity) ,S ,,50,ea. ,$123.11 
+132-8 ,FT48WFM ,,,Wall-Mount Fiber Termination Unit (48 fiber capacity) ,S ,,50,ea. ,$183.52 
+132-8 ,FT12FHL ,,,"Splice Tray (12 fiber), for wall-mount FTUs only ",S ,,15,ea. ,$28.38 
+132-8 ,FT18FHL ,,,"Splice Tray (18 fiber), for wall-mount FTUs only ",S ,,10,ea. ,$32.69 
+132-8 ,FT24SPL ,,,"Splice Tray Holder, up to 4 trays, for wall-mount FTUs only ",S ,,50,ea. ,$5.15 
+132-8 ,FT18RFS ,,,"Rack-Mount FTU (18-fiber cap.), incl. one 24-fiber splice tray ",S ,,2,ea. ,$205.02 
+132-8 ,FT18RFT ,,,"Rack-Mount FTU (18-fiber cap.), for field term only ",S ,,2,ea. ,$177.06 
+132-8 ,FT36RFS ,,,"Rack-Mount FTU (36-fiber cap.), incl. three 12-fiber splice trays ",S ,,2,ea. ,$251.62 
+132-8 ,FT36RFT ,,,"Rack-Mount FTU (36-fiber cap.), for field term only ",S ,,2,ea. ,$167.75 
+132-8 ,FT48RFS ,,,"Rack-Mount FTU (48-fiber cap.), incl. four 12-fiber splice trays ",S ,,2,ea. ,$445.46 
+132-8 ,FT72RFS ,,,"Rack-Mount FTU (72-fiber cap.), incl. six 12-fiber splice trays ",S ,,2,ea. ,$525.61 
+132-8 ,FT72RFT ,,,"Rack-Mount FTU (72-fiber cap.), for field term only ",S ,,2,ea. ,$225.53 
+132-8 ,FT144RFT ,,,"Rack-Mount FTU (144-fiber cap.), for field term only ",S ,,2,ea. ,$324.31 
+132-8 ,FT6STS2 ,,,"Interconnect Panel / Six-Pack (ST), for single - or multi-mode ",S ,,25,ea. ,$20.49 
+132-8 ,FT6SCS2 ,,,"Interconnect Panel / Six-Pack (SC), for single - or multi-mode ",S ,,25,ea. ,$29.82 
+132-8 ,FT6FCS2 ,,,"Interconnect Panel / Six-Pack (FC), for single - or multi-mode ",S ,,25,ea. ,$50.32 
+132-8 ,FT2MFB ,,,"Tapered Bushing ( for 2-, 4-, or 6-fiber bundle) ",S ,,500,ea. ,$3.61 
+132-8 ,FT3MFB ,,,Tapered Bushing (for 12- or 18-fiber bundle) ,S ,,500,ea. ,$4.07 
+132-8 ,FT6FCM2 ,,,(same as FT6FCS2) ,,,,,
+132-8 ,FT6SCM2 ,,,(same as FT6SCS2) ,,,,,
+132-8 ,FT6STM2 ,,,(same as FT6STS2) ,,,,,
+132-8 ,FTBLNK2 ,,,Blank Panel for FTUs ,S ,,25,ea. ,$4.86 
+132-8 ,FTFLD06 ,,,6-fiber Bundle Breakout Kit (w/ 900 micron Tubing) ,S ,,100,ea. ,$21.79 
+132-8 ,FTFLD1 ,,,6-fiber Bundle Breakout Kit (w/ 3 mm Tubing) ,S ,,20,ea. ,$38.96 
+132-8 ,FTFLD12 ,,,12-fiber Bundle Breakout Kit (w/ 900 micron Tubing) ,S ,,50,ea. ,$35.76 
+132-8 ,FTFLD18 ,,,18-fiber Bundle Breakout Kit (w/ 900 micron Tubing) ,S ,,100,ea. ,$57.72 
+132-8 ,FTFLD3 ,,,18-fiber Bundle Breakout Kit (w/ 3 mm Tubing) ,S ,,20,ea. ,$111.83 
+132-8 ,DE02TOX ,,,Bushing for 2-Tube Cable Liquid Tight Kellum Fitting ,S ,,50,ea. ,$7.60 
+132-8 ,DE04TOD ,,,Bushing for 4-Tube Cable Liquid Tight Kellum Fitting ,S ,,50,ea. ,$7.60 
+132-8 ,DE04HS1 ,,,"Cable End Seal (Heat Shrink, TC02-TC04 Tube Cables) ",S ,,10,ea. ,$1.55 
+132-8 ,DE07HS1 ,,,"Cable End Seal (Heat Shrink, TC07 Tube Cables) ",S ,,10,ea. ,$1.70 
+132-8 ,DE19HS1 ,,,"Cable End Seal (Heat Shrink, TC19 Tube Cables) ",S ,,10,ea. ,$2.49 
+132-8 ,DE19HS2 ,,,"Cable End Seal (Heat Shrink, TC19TRX Tube Cables Only) ",S ,,10,ea. ,$2.92 

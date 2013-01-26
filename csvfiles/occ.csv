@@ -1,0 +1,112 @@
+SIN ,Optical Cable Corporation Part Number,Product Description ,Quantity (See Note 1),GSA Rate
+132-8 ,AX02-030N-W3EB/1UC/900-R ,2 Strand MM Fiber Riser ,STOCK ,$0.22 
+132-8 ,AX02-030S-W3EB/1UC/900-P ,2 Strand MM Fiber PLENUM ,STOCK ,$0.25 
+132-8 ,AX02-030N-SYMC/YMD/900-R ,2 Strand SM Fiber Riser ,STOCK ,$0.14 
+132-8 ,AX02-030S-SYMC/YMD/900-P ,2 Strand SM Fiber PLENUM ,STOCK ,$0.18 
+132-8 ,BX002-060K-SYMC/YMD/900-P ,2 Strand SM Fiber PLENUM ,STOCK ,$0.27 
+132-8 ,BX002-070D-SYMC/YMD/900-R ,2 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.22 
+132-8 ,BX002-070D-W3EB/1UC/900-R ,2 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.34 
+132-8 ,BX002-060K-W3EB/1UC/900-P ,2 Strand MM Fiber PLENUM ,STOCK ,$0.38 
+132-8 ,BX004-060K-SYMC/YMD/900-P ,4 Strand SM Fiber PLENUM ,STOCK ,$0.45 
+132-8 ,BX004-080D-SYMC/YMD/900-R ,4 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.38 
+132-8 ,BX004-060K-W3EB/1UC/900-P ,4 Strand MM Fiber Indoor/Outdoor PLENUM ,STOCK ,$0.67 
+132-8 ,BX004-080D-W3EB/1UC/900-R ,4 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.61 
+132-8 ,BX006-070K-SYMC/YMD/900-P ,6 Strand SM Fiber Indoor/Outdoor PLENUM ,STOCK ,$0.64 
+132-8 ,BX006-095D-SYMC/YMD/900-R ,6 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.56 
+132-8 ,BX006-070K-W3EB/1UC/900-P ,6 Strand MM Fiber Indoor/Outdoor PLENUM ,STOCK ,$0.96 
+132-8 ,BX006-095D-W3EB/1UC/900-R ,6 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.91 
+132-8 ,BX012-100K-SYMC/YMD/900-P ,12 Strand SM Fiber Indoor/Outdoor PLENUM ,STOCK ,$1.30 
+132-8 ,BX012-100K-W3EB/1UC/900-P ,12 Strand MM Fiber Indoor/Outdoor PLENUM ,STOCK ,$1.96 
+132-8 ,BX012-125D-W3EB/1UC/900-R ,12 Strand MM Fiber Indoor/Outdoor ,STOCK ,$1.86 
+132-8 ,BX012-140D-SYMC/YMD/900-R ,12 Strand SM Fiber Indoor/Outdoor ,STOCK ,$1.25 
+132-8 ,BX024-130K-SYMC/YMD/900-P ,24 Strand SM Fiber Indoor/Outdoor PLENUM ,STOCK ,$2.51 
+132-8 ,BX024-175D-W3EB/1UC/900-R ,24 Strand MM Fiber Indoor/Outdoor ,STOCK ,$3.34 
+132-8 ,BX024-175D-SYMC/YMD/900-R ,24 Strand SM Fiber Indoor/Outdoor ,STOCK ,$1.94 
+132-8 ,DX002-045D-W3EB/1UC/900-R ,2 Strand MM Fiber Riser ,STOCK ,$0.23 
+132-8 ,DX002-040S-W3EB/1UC/900-P ,2 Strand MM Fiber PLENUM ,STOCK ,$0.25 
+132-8 ,DX002-045D-SYMC/YMD/900-R ,2 Strand SM Fiber Riser ,STOCK ,$0.14 
+132-8 ,DX002-040S-SYMC/YMD/900-P ,2 Strand SM Fiber PLENUM ,STOCK ,$0.18 
+132-8 ,DX004-050D-W3EB/1UC/900-R ,4 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.34 
+132-8 ,DX004-045S-W3EB/1UC/900-P ,4 Strand MM Fiber PLENUM ,STOCK ,$0.37 
+132-8 ,DX004-050D-SYMC/YMC/900-R ,4 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.20 
+132-8 ,DX004-045S-SYMC/YMD/900-P ,4 Strand SM Fiber PLENUM ,STOCK ,$0.26 
+132-8 ,DX006-055D-W3EB/1UC/900-R ,6 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.48 
+132-8 ,DX006-050S-W3EB/1UC/900-P ,6 Strand MM Fiber PLENUM ,STOCK ,$0.53 
+132-8 ,DX006-055D-SYMC/YMD/900-R ,6 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.27 
+132-8 ,DX006-050S-SYMC/YMD/900-P ,6 Strand SM Fiber PLENUM ,STOCK ,$0.31 
+132-8 ,DX012-065D-W3EB/1UC/900-R ,12 Strand MM Fiber Indoor/Outdoor ,STOCK ,$0.92 
+132-8 ,DX012-055S-W3EB/1UC/900-P ,12 Strand MM Fiber PLENUM ,STOCK ,$0.94 
+132-8 ,DX012-065D-SYMC/YMD/900-R ,12 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.46 
+132-8 ,DX012-055S-SYMC/YMD/900-P ,12 Strand SM Fiber PLENUM ,STOCK ,$0.51 
+132-8 ,DX012-055S-6W3EB/1UC-6SYMC/YMD/900-P ,12 Strand 6/MM 6SM Fiber PLENUM ,STOCK ,$0.84 
+132-8 ,DX012-065D-6W3EB/1UC-6SYMC/YMD/900-R ,12 Strand 6 MM 6 SM Fiber Indoor/Outdoor ,STOCK ,$0.75 
+132-8 ,DX018-065S-SYMC/YMD/900-P ,18 Strand SM PLENUM ,STOCK ,$0.91 
+132-8 ,DX018-065S-W3EB/1UC/900-P ,18 Strand MM PLENUM ,STOCK ,$1.83 
+132-8 ,DX018-070D-SYMC/YMD/900-R ,18 Strand SM Indoor/Outdoor ,STOCK ,$0.79 
+132-8 ,DX018-070D-W3EB/1UC/900-R ,18 Strand MM Indoor/ Outdoor ,STOCK ,$1.63 
+132-8 ,DX018-065S-12W3EB/1UC-6SYMC/YMD/900-P ,18 Strand 12 MM 6 SM Fiber PLENUM ,STOCK ,$1.24 
+132-8 ,DX018-070D-12W3EB/1UC-6SYMC/YMD/900-R ,18 Strand 12 MM 6 SM Fiber Indoor/Outdoor ,STOCK ,$1.18 
+132-8 ,DX024-085D-W3EB/1UC/900-R ,24 Strand MM Fiber Indoor/Outdoor ,STOCK ,$2.10 
+132-8 ,DX024-070K-W3EB/1UC/900-P ,24 Strand MM Fiber PLENUM ,STOCK ,$2.61 
+132-8 ,DX024-085D-SYMC/YMD/900-R ,24 Strand SM Fiber Indoor/Outdoor ,STOCK ,$0.96 
+132-8 ,DX024-070K-SYMC/YMD/900-P ,24 Strand SM Fiber PLENUM ,STOCK ,$1.46 
+132-8 ,DX036-080K-SYMC/YMD/900-P ,36 Strand SM Fiber PLENUM ,STOCK ,$1.97 
+132-8 ,DX036-080K-W3EB/1UC/900-P ,36 Strand MM Fiber PLENUM ,STOCK ,$3.85 
+132-8 ,DX036-090D-W3EB/1UC/900-R ,36 Strand MM Fiber Indoor/Outdoor ,STOCK ,$3.22 
+132-8 ,DX036-090D-SYMC/YMD/900-R ,36 Strand SM Fiber Indoor/Outdoor ,STOCK ,$1.44 
+132-8 ,DX048-095K-SYMC/YMD/900-P ,48 Strand SM Fiber Indoor/Outdoor PLENUM ,STOCK ,$2.23 
+132-8 ,DX048-095K-W3EB/1UC/900-P ,48 Strand MM Fiber PLENUM ,STOCK ,$4.48 
+132-8 ,DX048-105D-SYMC/YMD/900-R ,48 Strand SM Fiber Indoor/Outdoor ,STOCK ,$1.78 
+132-8 ,DX048-105D-W3EB/1UC/900-R ,48 Strand MM Fiber Indoor/Outdoor ,STOCK ,$4.04 
+132-8 ,DX072-125K-SYMC/YMD/900-P ,72 Strand SM Fiber PLENUM ,STOCK ,$3.31 
+132-8 ,DX072-125K-W3EB/1UC/900-P ,72 Strand MM Fiber PLENUM ,STOCK ,$6.61 
+132-8 ,DX072-130D-W3EB/1UC/900-R ,72 Strand MM Fiber Indoor/Outdoor ,STOCK ,$6.02 
+132-8 ,DX072-130D-SYMC/YMD/900-R ,72 Strand SM Fiber Indoor/Outdoor ,STOCK ,$2.61 
+132-8 ,DX144-195D-W3EB/1UC/900-R ,144 Strand MM Fiber Indoor/Outdoor ,STOCK ,$12.14 
+132-8 ,GX024-125K-SYMC/YMD/900-P ,24 Strand SM Fiber Indoor/Outdoor PLENUM ,STOCK ,$1.61 
+132-8 ,GX024-125K-W3EB/1UC/900-P ,24 Strand MM Fiber PLENUM ,STOCK ,$2.84 
+132-8 ,GX024-145D-SYMC/YMD/900-R ,24 Strand SM Fiber Indoor/Outdoor- 6 Fiber Subs ,STOCK ,$1.05 
+132-8 ,GX024-145D-W3EB/1UC/900-R ,24 Strand MM Fiber Indoor/Outdoor-6 Fiber Subs ,STOCK ,$2.31 
+132-8 ,GX036-165D-W3EB/1UC/900-R ,36 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$3.38 
+132-8 ,GX036-165D-W3EB/1UC/900-R ,36 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$4.07 
+132-8 ,GX036-150K-W3EB/1UC/900-P ,36 Strand MM Fiber PLENUM- 6 Fiber Subs ,>/= 3280 ft (1 km) ,$4.04 
+132-8 ,GX036-150K-W3EB/1UC/900-P ,36 Strand MM Fiber PLENUM- 6 Fiber Subs ,< 3280 ft (1 km) ,$4.76 
+132-8 ,GX036-165D-SYMC/YMD/900-R ,36 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$1.58 
+132-8 ,GX036-165D-SYMC/YMD/900-R ,36 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$2.18 
+132-8 ,GX036-170D-SYMC/YMD/900-R ,36 Strand SM Fiber Indoor/Outdoor- 6 Fiber Subs, >/=3280 ft (1km) ,$1.66 
+132-8 ,GX036-170D-SYMC/YMD/900-R ,36 Strand SM Fiber Indoor/Outdoor- 6 Fiber Subs ,< 3280 ft (1 km) ,$2.29 
+132-8 ,GX036-150K-SYMC/YMD/900-P ,36 Strand SM Fiber PLENUM-6 Fiber Subs, >/=3280 ft (1km) ,$2.28 
+132-8 ,GX036-150K-SYMC/YMD/900-P ,36 Strand SM Fiber PLENUM-6 Fiber Subs ,< 3280 ft (1 km) ,$2.80 
+132-8 ,GX048-170D-W3EB/1UC/900-R ,48 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,STOCK ,$4.24 
+132-8 ,GX048-140K-W3EB/1UC/900-P ,48 Strand MM Fiber PLENUM-12 Fiber Subs ,STOCK ,$4.70 
+132-8 ,GX048-170D-SYMC/YMD/900-R ,48 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,STOCK ,$1.96 
+132-8 ,GX048-200D-SYMC/YMD/900-R ,48 Strand SM Fiber Indoor/Outdoor- 6 Fiber Subs ,>/=3280 ft (1 km) ,$2.06 
+132-8 ,GX048-200D-SYMC/YMD/900-R ,48 Strand SM Fiber Indoor/Outdoor- 6 Fiber Subs ,< 3280 ft (1 km) ,$2.85 
+132-8 ,GX060-160K-SYMC/YMC/900-P ,60 Strand SM Fiber PLENUM-12 Fiber Subs ,>/= 3280 ft (1km) ,$3.18 
+132-8 ,GX060-160K-SYMC/YMC/900-P ,60 Strand SM Fiber PLENUM-12 Fiber Subs ,< 3280 ft (1 km) ,$4.13 
+132-8 ,GX060-185D-W3EB/1UC/900-R ,60 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$5.32 
+132-8 ,GX060-185D-W3EB/1UC/900-R ,60 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$6.37 
+132-8 ,GX060-185D-SYMC/YMD/900-R ,60 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$2.59 
+132-8 ,GX060-185D-SYMC/YMD/900-R ,60 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$3.51 
+132-8 ,GX072-200D-W3EB/1UC/900-R ,72 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$6.32 
+132-8 ,GX072-200D-W3EB/1UC/900-R ,72 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$7.56 
+132-8 ,GX072-175K-SYMC/YMD/900-P ,72 Strand SM Fiber Plenum-12 Fiber Subs ,>/=3280 ft (1 km) ,$3.64 
+132-8 ,GX072-175K-SYMC/YMD/900-P ,72 Strand SM Fiber Plenum-12 Fiber Subs ,< 3280 ft (1 km) ,$4.75 
+132-8 ,GX072-175K-W3EB/1UC/900-P ,72 Strand MM Fiber PLENUM-12 Fiber Subs ,>/= 3280 ft (1 km) ,$6.94 
+132-8 ,GX072-175K-W3EB/1UC/900-P ,72 Strand MM Fiber PLENUM-12 Fiber Subs ,< 3280 ft (1 km) ,$7.56 
+132-8 ,GX072-200D-SYMC/YMD/900-R ,72 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$2.87 
+132-8 ,GX072-200D-SYMC/YMD/900-R ,72 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$3.94 
+132-8 ,GX096-225K-SYMC/YMD/900-P ,96 Strand SM Plenum-12 Fiber Subs ,>/= 3280 ft (1km) ,$4.47 
+132-8 ,GX096-225K-SYMC/YMD/900-P ,96 Strand SM Plenum-12 Fiber Subs ,< 3280 ft (1 km) ,$5.88 
+132-8 ,GX096-235D-W3EB/1UC/900-R ,96 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$9.05 
+132-8 ,GX096-235D-W3EB/1UC/900-R ,96 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$10.70 
+132-8 ,GX096-235D-SYMC/YMD/900-R ,96 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$4.15 
+132-8 ,GX096-235D-SYMC/YMD/900-R ,96 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$5.55 
+132-8 ,GX144-255K-SYMC/YMD/900-P ,144 Strand SM Fiber PLENUM-12 Fiber Subs ,>/= 3280 ft (1 km) ,$6.76 
+132-8 ,GX144-255K-SYMC/YMD/900-P ,144 Strand SM Fiber PLENUM-12 Fiber Subs ,< 3280 ft (1 km) ,$8.83 
+132-8 ,GX144-255K-W3EB/1UC/900-P ,144 Strand MM Fiber PLENUM-12 Fiber Subs ,>/= 3280 ft (1 km) ,$13.62 
+132-8 ,GX144-255K-W3EB/1UC/900-P ,144 Strand MM Fiber PLENUM-12 Fiber Subs ,< 3280 ft (1 km) ,$16.04 
+132-8 ,GX144-250D-W3EB/1UC/900-R ,144 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$12.75 
+132-8 ,GX144-250D-W3EB/1UC/900-R ,144 Strand MM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$15.12 
+132-8 ,GX144-250D-SYMC/YMD/900-R ,144 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,>/= 3280 ft (1 km) ,$5.99 
+132-8 ,GX144-250D-SYMC/YMD/900-R ,144 Strand SM Fiber Indoor/Outdoor-12 Fiber Subs ,< 3280 ft (1 km) ,$8.02 
